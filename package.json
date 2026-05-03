@@ -1,0 +1,18 @@
+{
+  "name": "battle-md",
+  "version": "2.0.0",
+  "description": "Battle MD WhatsApp Bot by KHAREL HERMAN 🇺🇬",
+  "type": "module",
+  "main": "index.js",
+
+  "scripts": {
+    "start": "node index.js"
+  },
+
+  "dependencies": {
+    "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys",
+    "dotenv": "^16.0.0",
+    "pino": "^8.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
