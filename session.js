@@ -19,11 +19,12 @@ app.get("/pair", async (req, res) => {
   });
 
   sock.ev.on("connection.update", async (update) => {
-    const { connection, qr } = update;
+  const { pairingCode } = update;
 
-    if (qr) {
-      qrcode.generate(qr, { small: true });
-    }
+  if (pairingCode) {
+    console.log("🔑 PAIR CODE:", pairingCode);
+  }
+});
 
     if (connection === "open") {
       const sessionId = state.creds?.me?.id || "BATTLE_MD_SESSION";
