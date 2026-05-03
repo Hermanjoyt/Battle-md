@@ -1,0 +1,45 @@
+{
+  "name": "BATTLE-MD",
+  "description": "WhatsApp bot made by KHAREL HERMAN 🇺🇬 UG",
+  "keywords": ["BATTLE MD", "WHATSAPP BOT"],
+
+  "stack": "container",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Your session ID",
+      "value": "",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "Bot name",
+      "value": "BATTLE MD",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Command prefix",
+      "value": ".",
+      "required": true
+    },
+    "MODE": {
+      "description": "public / private / groups / inbox",
+      "value": "private",
+      "required": true
+    },
+    "DESCRIPTION": {
+      "description": "Bot caption",
+      "value": "© Powered by KHAREL HERMAN 🇺🇬 UG",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner number",
+      "value": "256726212154",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Owner name",
+      "value": "KHAREL HERMAN",
+      "required": true
+    }
+  }
+}
